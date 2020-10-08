@@ -31,3 +31,16 @@ background: linear-gradient(to right, #afa19d, #afa19d); /* W3C, IE 10+/ Edge, F
 .input{
     color: #fff;
 }
+
+.input-clear-button{
+    visibility:hidden!important;
+    }
+    .small{
+        font-size: 0.8em;
+    }
+.disabled,[disabled]{
+    opacity: 0.5;
+    pointer-events: none;
+
+
+    }
