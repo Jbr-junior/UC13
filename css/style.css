@@ -1,0 +1,33 @@
+.text-center{
+    text-align: center;
+}
+.bg-black{
+    background: #000;
+}
+.page{
+background: #afa19d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #afa19d, #afa19d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #afa19d, #afa19d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.list ul{
+    background: rgba(182, 171, 171, 0.07)!important;
+    color: #000;
+}
+.f7-icons.login{
+    font-size: 12rem;
+    color: aliceblue;
+}
+.btn-75{
+    width:75%;
+    margin: 0 auto;
+}
+.btn-50{
+    width:50%;
+    margin: 0 auto;
+}
+.title{
+    color: #fff;
+}
+.input{
+    color: #fff;
+}
