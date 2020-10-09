@@ -21,6 +21,22 @@ var app = new Framework7({
 
 var mainView = app.views.create('.view-main');
 
+// //animação do popup -poupape
+var popup = app.popup.open(".popup-inicial"); 
+
+setTimeout(function(){
+ var popupClose = app.popup.close(".popup-inicial", true);
+ }, 3000); //3000 = padrão de tempo
+
+  var ptrContent = $('.ptr-content');
+
+  ptrContent.on('ptr:refresh',function(){
+    publicacoes();
+    setTimeout(function(){
+      app.ptr.done();
+    },1000);
+  });
+
 $(document).ready(function() {
   $('#btn-calcular').click(function() {
       etanol = $('#etanol').val();

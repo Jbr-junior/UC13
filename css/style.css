@@ -41,6 +41,24 @@ background: linear-gradient(to right, #afa19d, #afa19d); /* W3C, IE 10+/ Edge, F
 .disabled,[disabled]{
     opacity: 0.5;
     pointer-events: none;
+}
 
+/* Popup Inicializar */
 
-    }
+.popup.popup-inicial.modal-in{
+    background-color: rgb(94, 100, 94);
+}
+.content-abertura{
+    width: 100%;
+    height: auto;  
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.navbar-inner{
+    color: black;
+    /* background-color:  rgb(253, 1, 1); */
+}
